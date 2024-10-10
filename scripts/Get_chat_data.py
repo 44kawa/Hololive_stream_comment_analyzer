@@ -1,6 +1,6 @@
 import pytchat
 from Classes import Comment
-from Output_file import output_file
+from scripts.output_file import output_file
 
 
 def get_chat_data(video_id, ofname) -> list:
